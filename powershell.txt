@@ -1,0 +1,44 @@
+PowerShell
+
+*configurar para abrir sempre como admnistrador*
+
+<update-help> comando necessario para atualizar a função help que por default vem desatualizada
+update-help
+
+<get-help> obtem mais informações sobre um comando
+get-help ls
+
+<ls> serve para mostrar os arquivos dentro da pasta atual
+ls
+
+<cd>
+cd.. (volta uma pasta)
+cd projet01 (avança para a pasta projeto01)
+
+<mkdir> cria pastas
+mkdir projeto01
+
+<ni> cria arquivos
+ni App.js
+ni index.html, style.css, script.js
+
+<rni> altera o nome de um arquivo
+rni index.html novoIndex.html
+
+<cp> copia um arquivo
+cp novoIndex.html index.html (copia na mesma pasta e gera um arquivo com outro nome)
+cp novoIndex.html c:\ (copia em outra pasta e gera um arquivo com mesmo nome)
+
+<mv> move um arquivo
+mv novoIndex.html c:\ (move para outra pasta o arquivo)
+
+<erase> serve para apagar um arquivo ou pasta
+erase novoIndex.html
+
+<clear> limpa a tela
+clear
+ou
+ctrl + L
+
+<exit> fecha o powershell
+exit
