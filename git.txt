@@ -1,0 +1,60 @@
+Git
+
+*configurar primeiro usuario*
+git config --edit --global (abre o arquivo para ser editado)
+ou
+git config --global user.email "aqui@aqui.com"
+git config --global user.name "Aqui"
+
+*verificar se configurações foram salvas*
+git config --list --global (apresenta lista com user email e name)
+ou
+git config --list (apresenta lista com todas configurações)
+ou
+git config user.email
+git config user.name
+
+*iniciando o git na pasta de trabalho*
+git init
+
+*verifica o status do git, ex.: modificações em arquivos, novos arquivos etc*
+git status
+
+*adicionando novos arquivos*
+git add * (adiciona todos os novos)
+ou
+git add <file name> (adiciona somente o mencionado)
+
+*commita o novos arquivos*
+git commit -m "texto"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git restore --staged <file name>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
