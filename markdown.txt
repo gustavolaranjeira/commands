@@ -1,0 +1,48 @@
+Markdown 
+
+#
+# = <h1>
+# example = <h1>example</h1>
+...
+###### = <h6>
+###### example = <h6>example</h6>
+
+*
+* = <em>
+*example* = <em>example</em>
+
+**
+** = <strong>
+**example** = <strong>example</strong>
+
+
+***
+*** = <strong><em>
+***example*** = <strong><em>example</em></strong>
+
+task list
+- [x] think
+- [ ] draw
+- [ ] code
+
+ordered list
+1. = <ol><li>
+1. First item = <ol><li>First item</li></ol>
+
+unordered list
+- = <ul><li>
+- First item = <ul><li>First item</li></ul>
+ 
+blockquotes
+> blockquote example
+
+image
+![alt text](/assets/images/itsme.png)
+
+link
+[text](https://duckduckgo.com "description")
+or
+<https://www.markdownguide.org>
+<fake@example.com>
+
+
